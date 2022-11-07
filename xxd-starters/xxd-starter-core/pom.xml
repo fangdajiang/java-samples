@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.xxdai.starters</groupId>
+		<artifactId>xxd-starters</artifactId>
+		<version>2.0.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>xxd-starter-core</artifactId>
+	<packaging>jar</packaging>
+
+	<name>xxd-starter-core</name>
+	<description>Core of XXD starters</description>
+
+	<dependencies>
+		<!-- XXD -->
+		<dependency>
+			<groupId>com.xxdai.starters</groupId>
+			<artifactId>xxd-starter-sample</artifactId>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.xxdai.starters</groupId>
+			<artifactId>xxd-starter-cache</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xxdai.starters</groupId>
+			<artifactId>xxd-starter-db</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xxdai.pub</groupId>
+			<artifactId>xxd-account-client</artifactId>
+		</dependency>
+		<!-- Third Party -->
+		<dependency>
+			<groupId>org.apache.curator</groupId>
+			<artifactId>curator-recipes</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>log4j</groupId>
+					<artifactId>log4j</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<!-- Spring BOOT -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		<!-- for admin start -->
+		<dependency>
+			<groupId>de.codecentric</groupId>
+			<artifactId>spring-boot-admin-starter-client</artifactId>
+		</dependency>
+		<!-- for admin end -->
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>application.yml</exclude>
+						<!--<exclude>logback-spring.xml</exclude>-->
+						<exclude>com/xxdai/starter/core/*Application.class</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

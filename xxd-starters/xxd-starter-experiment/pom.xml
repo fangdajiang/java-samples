@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>xxd-starters</artifactId>
+        <groupId>com.xxdai.starters</groupId>
+        <version>2.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>xxd-starter-experiment</artifactId>
+    <packaging>jar</packaging>
+
+    <name>xxd-starter-experiment</name>
+    <description>Experiment of XXD starters</description>
+
+    <properties>
+        <jsoup.version>1.11.3</jsoup.version>
+        <activiti-engine.version>6.0.0</activiti-engine.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-engine</artifactId>
+            <version>${activiti-engine.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xxdai.starters</groupId>
+            <artifactId>xxd-starter-db</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>${jsoup.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,167 @@
+spring:
+  application:
+    name: "@project.name@"
+  profiles:
+    active: "@profiles.active@"
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  cache:
+    type: redis
+  redis:
+    host: 192.168.129.62
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 28
+        max-wait: -1ms
+        max-active: 18
+      shutdown-timeout: 100ms
+    expire-map:
+      user-cache-24hrs: 86400
+      user-cache-app: 315360000
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: oracle.jdbc.OracleDriver
+    name: druid
+    initialSize: 12
+    minIdle: 2
+    maxActive: 20
+    maxWait: 20000
+    timeBetweenEvictionRunsMillis: 30000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 'y' from DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    removeAbandoned: true
+    removeAbandonedTimeout: 1800
+    logAbandoned: true
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: config,stat
+    connectionProperties: config.decrypt=false;config.decrypt.key=${spring.datasource.publickey};druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    useGlobalDataSourceStat: true
+    url: jdbc:oracle:thin:@//192.168.38.207:1521/oradev
+    username: xxd_v6_test
+    password: xxd_v6_test
+    publickey:
+    monitorUserName: admin
+    monitorResetEnable: true
+    monitorPassword: admin
+  # 因为使用了自定义的 RequestMappingHandlerMapping，故设为 true
+  main:
+    allow-bean-definition-overriding: true
+# for admin start
+  boot:
+    admin:
+      client:
+        url: http://192.168.31.84:8092
+#        service-url: http://localhost:${server.port} #不定义本属性的话，在运行测试时会抛出 java.lang.IllegalStateException: service-base-url must be set when deployed to servlet-container
+        connect-timeout: 1000ms
+  security:
+    user:
+      name: admin
+      password: admin
+# for admin end
+
+rabbitmq:
+  address: 192.168.129.50:5672,192.168.129.51:5672,192.168.129.52:5672
+  username: xxd_dev
+  password: xxd_dev
+  virtualHost: v7
+  channelCacheSize: 1
+  concurrentConsumers: 1
+  maxConcurrentConsumers: 1
+  prefetchCount: 1
+  maxRetryTime: 5
+  exchanges:
+    sample-exchange:
+      orders-queue:
+        desc: 示例 Handler
+        listen: true
+        handler: com.xxdai.starter.core.mq.rabbit.RabbitSampleHandler
+
+pagehelper:
+  helper-dialect: mysql
+  # 启用合理化，如果pageNum < 1会查询第一页，如果pageNum > pages会查询最后一页
+  reasonable: true
+
+# Endpoint Security
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    beans:
+      enabled: false
+    health:
+      show-details: always
+  info:
+    build:
+      enabled: true
+      artifact: "@project.artifactId@"
+      name: ${spring.application.name}
+      description: '@project.description@'
+      version: '@project.version@'
+
+logging:
+  file: client.log
+  level:
+    root: trace
+#  path: /data/logs
+server:
+#  servlet:
+#    context-path: /${spring.application.name}
+  port: 8080
+
+project:
+  ##以下路径跳过拦截器
+  uriIgnore:
+    - /hystrix/**
+  clientcfg:
+    default-key: 123456
+    check-sign: true
+    clients:
+      XXD_FRONT_END:
+        desc: 某客户端帐号
+  servercfg:
+    servers:
+      XXD_CLIENT:
+        desc: 请求其他 API 服务的测试帐号
+        key: 123456
+  common-interceptor:
+    enabled: true
+
+logstash:
+  remoteHost: 192.168.31.189
+  port: 4560
+
+swagger:
+  enabled: true
+  title: 示范 Swagger，项目：${spring.application.name}
+  description: this swagger is only for test
+  version: "@project.version@"
+  license: Apache License, Version 2.0
+  license-url: https://www.apache.org/licenses/LICENSE-2.0.html
+  terms-of-service-url: www.xinxindai.com
+  contact:
+    name: administrator
+    url: www.xinxindai.com
+    email: no-reply@xinxindai.com
+  base-package: com.xxdai.starter.core
+  base-path: /**
+  exclude-path: /error, /actuator
+  ui-config:
+#    submit-methods: get 无效？
+    json-editor: true
+    show-request-headers: false
+    request-timeout: 3000
+    display-request-duration: true
+#  authorization:
+#    name: Authorization
+#    key-name: s
+#    auth-regex: ^.*$
+

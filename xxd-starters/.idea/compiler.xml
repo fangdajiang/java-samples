@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xxd-starter-cache" />
+        <module name="xxd-starter-core" />
+        <module name="xxd-starter-sample" />
+        <module name="xxd-starter-db" />
+      </profile>
+      <profile name="Annotation profile for xxd-starters" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xxd-starter-experiment" />
+        <module name="xxd-starter-configuration-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xxd-starter-cache" target="1.5" />
+      <module name="xxd-starter-configuration-client" target="1.5" />
+      <module name="xxd-starter-core" target="1.5" />
+      <module name="xxd-starter-db" target="1.5" />
+      <module name="xxd-starter-experiment" target="1.5" />
+      <module name="xxd-starter-sample" target="1.5" />
+      <module name="xxd-starters" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

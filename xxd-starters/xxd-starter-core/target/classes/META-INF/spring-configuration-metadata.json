@@ -1,0 +1,103 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.ProjectProperties",
+      "name": "project",
+      "type": "com.xxdai.starter.core.config.property.ProjectProperties"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.ClientCfgProperties",
+      "name": "project.clientcfg",
+      "type": "com.xxdai.starter.core.config.property.ClientCfgProperties"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.ServerCfgProperties",
+      "name": "project.servercfg",
+      "type": "com.xxdai.starter.core.config.property.ServerCfgProperties"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq",
+      "type": "com.xxdai.starter.core.config.property.RabbitMqProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.ClientCfgProperties",
+      "defaultValue": true,
+      "name": "project.clientcfg.check-sign",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.ClientCfgProperties",
+      "name": "project.clientcfg.clients",
+      "type": "java.util.Map<java.lang.String,com.xxdai.pub.common.model.ClientCfgObj>"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.ClientCfgProperties",
+      "name": "project.clientcfg.default-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.ServerCfgProperties",
+      "name": "project.servercfg.servers",
+      "type": "java.util.Map<java.lang.String,com.xxdai.pub.common.model.ServerCfgObj>"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.ProjectProperties",
+      "name": "project.uri-ignore",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.channel-cache-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.concurrent-consumers",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.exchanges",
+      "type": "java.util.Map<java.lang.String,java.util.Map<java.lang.String,com.xxdai.starter.core.mq.rabbit.Queue>>"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.max-concurrent-consumers",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.max-retry-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.prefetch-count",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xxdai.starter.core.config.property.RabbitMqProperties",
+      "name": "rabbitmq.virtual-host",
+      "type": "java.lang.String"
+    }
+  ]
+}

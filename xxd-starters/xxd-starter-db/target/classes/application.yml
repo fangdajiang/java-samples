@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: "xxd-starter-db"
+  profiles:
+    active: 'dev'
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: oracle.jdbc.OracleDriver
+    name: druid
+    initialSize: 12
+    minIdle: 2
+    maxActive: 20
+    maxWait: 20000
+    timeBetweenEvictionRunsMillis: 30000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 'y' from DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    removeAbandoned: true
+    removeAbandonedTimeout: 1800
+    logAbandoned: true
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: config,stat
+    connectionProperties: config.decrypt=false;config.decrypt.key=${spring.datasource.publickey};druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    useGlobalDataSourceStat: true
+    url: jdbc:oracle:thin:@//192.168.38.207:1521/oradev
+    username: xxd_v6_test
+    password: xxd_v6_test
+    #password: hIVuk1HsTfF3QxzNJ1oRvX4cABQUTMvA9LTFfLvHOlNzNT14TQs+qr3usizs83ulMtLPbvXvmAVU5ko4imW1LA==
+    publickey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKHGwq7q2RmwuRgKxBypQHw0mYu4BQZ3eMsTrdK8E6igRcxsobUC7uT0SoxIjl1WveWniCASejoQtn/BY6hVKWsCAwEAAQ==
+    monitorUserName: admin
+    monitorResetEnable: true
+    monitorPassword: admin
+
+server:
+#  servlet:
+#    context-path: /${spring.application.name}
+  port: 8080
+

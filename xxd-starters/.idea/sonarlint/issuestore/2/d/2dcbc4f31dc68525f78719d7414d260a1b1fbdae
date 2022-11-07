@@ -1,0 +1,5 @@
+
+Psquid:S1172Ô"3Remove this unused method parameter "serverCfgObj".(êÈ®þþÿÿÿÿ
+Gsquid:EmptyStatementUsageCheckØ"Remove this empty statement.(ßò™¹
+\squid:S3358Ù"DExtract this nested ternary operation into an independent statement.(¯˜û³
+hsquid:CommentedOutCodeLineÜ"<This block of commented-out lines of code should be removed.(˜„Çäþÿÿÿÿ

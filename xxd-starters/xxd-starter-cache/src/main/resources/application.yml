@@ -1,0 +1,118 @@
+spring:
+  application:
+    name: "@project.name@"
+  profiles:
+    active: "@profiles.active@"
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  cache:
+    type: redis
+#    cache-names:
+#    redis:
+#      cache-null-values: false
+#      time-to-live: 60000ms
+#      use-key-prefix: true
+#      key-prefix:
+  redis:
+    host: 192.168.129.62
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 10000ms
+        max-idle: 8
+        min-idle: 0
+    lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 8
+        max-wait: -1ms
+        max-active: 8
+      shutdown-timeout: 100ms
+    expire-map:
+      user-cache-24hrs: 86400
+      user-cache-app: 315360000
+
+# for admin start
+  boot:
+    admin:
+      url: http://192.168.31.189:8091
+      client:
+        service-url: http://localhost:${server.port} #不定义本属性的话，在运行测试时会抛出 java.lang.IllegalStateException: service-base-url must be set when deployed to servlet-container
+  aop:
+    auto: true
+  security:
+    user:
+      name: admin
+      password: admin
+# for admin end
+
+# Endpoint Security
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    beans:
+      enabled: false
+    health:
+      show-details: always
+  info:
+    build:
+      enabled: true
+      artifact: "@project.artifactId@"
+      name: ${spring.application.name}
+      description: '@project.description@'
+      version: '@project.version@'
+
+server:
+#  context-path: /${spring.application.name}
+  port: 8080
+
+project:
+  ##以下路径跳过拦截器
+  uriIgnore:
+    - /hystrix/**
+  clientcfg:
+    default-key: 123456
+    check-sign: true
+    clients:
+      XXD_FRONT_END:
+        desc: 某客户端帐号
+  servercfg:
+    servers:
+      XXD_CLIENT:
+        desc: 请求其他 API 服务的测试帐号
+        key: 123456
+
+logstash:
+  remoteHost: 192.168.31.189
+  port: 4560
+
+swagger:
+  enabled: true
+  title: 示范 Swagger，项目：${spring.application.name}
+  description: this swagger is only for test
+  version: "@project.version@"
+  license: Apache License, Version 2.0
+  license-url: https://www.apache.org/licenses/LICENSE-2.0.html
+  terms-of-service-url: www.xinxindai.com
+  contact:
+    name: administrator
+    url: www.xinxindai.com
+    email: no-reply@xinxindai.com
+  base-package: com.xxdai.starter.core
+  base-path: /**
+  exclude-path: /error, /actuator
+  ui-config:
+#    submit-methods: get 无效？
+    json-editor: true
+    show-request-headers: false
+    request-timeout: 3000
+    display-request-duration: true
+#  authorization:
+#    name: Authorization
+#    key-name: s
+#    auth-regex: ^.*$

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/config/AccountAutoConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/config/properties/AccountProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/config/properties/AliSmsProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/config/properties/AliyunSmsProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/constant/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/entity/AccountPrivilege.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/entity/AccountProfile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/entity/MemberPrivilege.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/entity/MemberProfile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/entity/MerchantProfile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/entity/MerchantServiceCenterProfile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/entity/MerchantSupplierProfile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/entity/OpLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/entity/Order.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/enums/notification/SmsForMemberEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/enums/notification/SmsSignName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/enums/notification/SmsTargetEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/enums/notification/SmsTemplateCodeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/enums/notification/SmsTemplateEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/enums/notification/SmsTemplateParamName.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/AccountDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/EnrollmentDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/Invitee.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/InviterQuickResponseCodeDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/MemberQuickResponseCodeDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/MembershipVerificationCondition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/NotificationReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/NotificationRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/RedBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/RedfishExchange.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/SmsBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/SmsReceiver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/UpdatePrivilegeParam.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/UpgradeMembershipParam.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/model/qrCodeJson.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/repository/AccountPrivilegeRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/repository/AccountProfileRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/repository/MemberProfileRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/repository/MerchantProfileRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/repository/MerchantServiceCenterProfileRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/repository/OpLogRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/repository/SupplierProfileRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/AccountService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/AuthService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/AwardService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/InvitationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/MerchantSupplierService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/NotificationService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/OpLogService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/SmsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/SupplierService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/impl/AccountCacheService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/impl/AccountServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/impl/AuthServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/impl/OpLogServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/impl/SmsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/impl/SupplierServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/membership/MembershipService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/membership/impl/InvitationServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/service/membership/impl/MembershipServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/util/AccountHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/util/AccountUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/web/controller/AccountController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/web/controller/AuthController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/web/controller/MembershipController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/java/com/iredfish/common/account/web/controller/SmsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/resources/application-dev.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/resources/application-prod.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/resources/application-test.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/common/SmsTemplateEnumTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/enums/notification/SmsTargetEnumTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/enums/notification/SmsTemplateEnumTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/model/RedBeanTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/model/SmsReceiverTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/repository/AccountPrivilegeRepositoryTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/repository/AccountProfileRepositoryTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/repository/MemberProfileRepositoryTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/service/impl/AccountCacheServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/service/impl/AccountServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/service/impl/AuthServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/service/impl/SmsServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/service/membership/impl/InvitationServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/service/membership/impl/MembershipServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/util/AccountHelperTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/util/AccountUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/util/FakeAccountUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/web/controller/KaptchaControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/web/controller/MembershipControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-account/src/test/java/com/iredfish/common/account/web/controller/SmsControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/constant/Global.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/enums/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/enums/BizEnumCollection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/AbstractBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/BaseRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/BaseResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/CodeMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/ExchangeRate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/RedfishCurrency.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/RedfishExchange.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/RedfishExchangeRate.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/RedfishToken.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/model/TokenDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/util/HttpUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/util/helper/BaseRequestHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/main/java/com/iredfish/common/base/util/helper/BaseResponseHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/test/java/com/iredfish/common/base/model/BaseResponseTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/iredfish-base/src/test/java/com/iredfish/common/base/util/helper/BaseRequestHelperTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/pom/iredfish-dependencies/iredfish-boot/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/pom/iredfish-dependencies/iredfish-boot/spring-cloud-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/pom/iredfish-dependencies/iredfish-common/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/common/pom/iredfish-dependencies/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/main/java/com/iredfish/starter/cache/RedfishStarterCacheApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/main/java/com/iredfish/starter/cache/config/StarterCacheAutoConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/main/java/com/iredfish/starter/cache/config/property/RedisExpireProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/main/java/com/iredfish/starter/cache/model/AccountCache.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/main/java/com/iredfish/starter/cache/model/KeyMode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/main/java/com/iredfish/starter/cache/model/RequestStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/main/java/com/iredfish/starter/cache/service/AccountCacheService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/main/java/com/iredfish/starter/cache/service/DemoService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-cache/src/test/java/com/iredfish/starter/cache/iredfishstartercache/IredfishStarterCacheApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/config/SecurityPermitAllConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/config/StarterCoreAutoConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/config/properties/RedfishProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/service/AccountCacheService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/service/BaseService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/service/DemoService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/util/FakeRequestUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/util/TokenUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/web/auth/TokenFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/web/controller/BaseController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/web/controller/DemoController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/web/controller/VersionSampleController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/web/filter/CommonFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/web/filter/TokenFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/web/filter/auth/TokenFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/java/com/iredfish/starter/core/web/interceptor/CommonInterceptor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/main/resources/logback-spring.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/test/java/com/iredfish/starter/core/config/StarterCoreAutoConfigurationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/test/java/com/iredfish/starter/core/web/auth/TokenFilterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/test/java/com/iredfish/starter/core/web/filter/CommonFilterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/test/java/com/iredfish/starter/core/web/filter/TokenFilterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/iredfish-starter-core/src/test/java/com/iredfish/starter/core/web/interceptor/CommonInterceptorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/iredfish-starters/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/src/main/java/com/iredfish/shopping/common/helper/PaymentHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/src/main/java/com/iredfish/shopping/common/util/KuaiDi100Api.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/src/main/java/com/iredfish/shopping/dump/util/FileImportUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/src/main/java/com/iredfish/shopping/entity/MerchantSupplierProfile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/src/main/java/com/iredfish/shopping/service/impl/AdServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/src/main/resources/application-dev.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/src/main/resources/application-prod.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../iredfish/shopping-system/src/test/java/com/iredfish/shopping/dump/util/FileImportUtilTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Volumes/APPDATA/.m2/repository/com/iredfish/common/iredfish-base/1.0.3-SNAPSHOT/iredfish-base-1.0.3-SNAPSHOT-sources.jar!/com/iredfish/common/base/enums/ResponseCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Volumes/APPDATA/.m2/repository/com/iredfish/parent/iredfish-dependencies/1.0.3-SNAPSHOT/iredfish-dependencies-1.0.3-SNAPSHOT.pom">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

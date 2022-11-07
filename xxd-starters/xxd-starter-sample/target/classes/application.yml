@@ -1,0 +1,104 @@
+spring:
+  application:
+    name: xxd-starter-sample-service
+  profiles:
+    active: dev
+  rabbitmq:
+    host: 192.168.129.50
+    port: 5672
+    username: xxd_dev
+    password: xxd_dev
+  sleuth:
+    sampler:
+      percentage: 1.0
+  zipkin:
+    rabbitmq:
+      queue: zipkin
+    base-url: http://192.168.33.49:9412
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration,org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+# for admin start
+  boot:
+    admin:
+      url: http://192.168.31.189:8091
+      client:
+        service-url: http://172.16.16.155:${server.port} #不定义本属性的话，在运行测试时会抛出 java.lang.IllegalStateException: service-base-url must be set when deployed to servlet-container
+  aop:
+    auto: true
+# for admin end
+
+# for admin start
+info:
+  build:
+    artifact: ${spring.application.name}
+    name: ${spring.application.name}
+    description: 'Sample for XXD projects'
+    version: '2.0.0-SNAPSHOT'
+#management:
+#  security:
+#    enabled: false
+# for admin end
+
+server:
+#  context-path: /${spring.application.name}
+  port: 8080
+  undertow:
+    accesslog:
+      enabled: true
+      dir: logs
+      pattern: combined
+  compression:
+    enabled: true
+    min-response-size: 1
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.33.49:1111/eureka/
+
+
+
+project:
+  ##以下路径跳过拦截器
+  uriIgnore:
+    - /hystrix/**
+  swagger:
+    base-package: com.xxdai.starter.sample
+    contact-name: administrator
+    description: this swagger is only for test
+    version: 1.0
+    terms-of-service-url: www.xinxindai.com
+    title: ${spring.application.name}
+    contact-email: no-reply@xinxindai.com
+    contact-url: www.xinxindai.com
+  clientcfg:
+    default-key: 123456
+    check-sign: true
+    clients:
+      XXD_FRONT_END:
+        desc: 某客户端帐号
+      XXD_DEMO:
+        desc: 仅供演示
+  servercfg:
+    servers:
+      XXD_CLIENT:
+        desc: 请求其他 API 服务的测试帐号
+        key: 123456
+  commonInterceptor:
+    enabled: true
+  bffInterceptor:
+    enabled: true
+
+  forest:
+    configurationParams:
+      timeoutMs: 30000
+      retryCount: 3
+      connectTimeoutMs: 5000
+      maxConnections: 1024
+      maxRouteConnections: 1024
+    globalVars:
+      defaultClientId: XXD_DEFAULT_CLIENT
+
+logstash:
+  remoteHost: 192.168.31.189
+  port: 4560
