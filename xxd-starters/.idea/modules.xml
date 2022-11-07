@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/xxd-starter-cache/xxd-starter-cache.iml" filepath="$PROJECT_DIR$/xxd-starter-cache/xxd-starter-cache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xxd-starter-configuration-client/xxd-starter-configuration-client.iml" filepath="$PROJECT_DIR$/xxd-starter-configuration-client/xxd-starter-configuration-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xxd-starter-core/xxd-starter-core.iml" filepath="$PROJECT_DIR$/xxd-starter-core/xxd-starter-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xxd-starter-db/xxd-starter-db.iml" filepath="$PROJECT_DIR$/xxd-starter-db/xxd-starter-db.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xxd-starter-experiment/xxd-starter-experiment.iml" filepath="$PROJECT_DIR$/xxd-starter-experiment/xxd-starter-experiment.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xxd-starter-sample/xxd-starter-sample.iml" filepath="$PROJECT_DIR$/xxd-starter-sample/xxd-starter-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxd-starters.iml" filepath="$PROJECT_DIR$/xxd-starters.iml" />
     </modules>
   </component>

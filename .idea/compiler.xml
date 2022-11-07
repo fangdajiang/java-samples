@@ -6,9 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="xxd-starter-cache" />
+        <module name="xxd-starter-core" />
+        <module name="xxd-starter-sample" />
+        <module name="xxd-starter-db" />
+      </profile>
+      <profile name="Annotation profile for xxd-starters" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xxd-starter-experiment" />
+        <module name="xxd-starter-configuration-client" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7">
       <module name="xxd-starter-cache" target="1.5" />
       <module name="xxd-starter-configuration-client" target="1.5" />
       <module name="xxd-starter-core" target="1.5" />

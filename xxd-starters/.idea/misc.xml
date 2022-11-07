@@ -6,6 +6,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/xxd-starter-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/xxd-starter-configuration-client/pom.xml" />
+        <option value="$PROJECT_DIR$/xxd-starter-core/pom.xml" />
+        <option value="$PROJECT_DIR$/xxd-starter-db/pom.xml" />
+        <option value="$PROJECT_DIR$/xxd-starter-experiment/pom.xml" />
+        <option value="$PROJECT_DIR$/xxd-starter-sample/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />

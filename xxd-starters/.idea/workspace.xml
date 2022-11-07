@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf74f77-ca59-45f0-8043-63fab13ea790" name="Default" comment="" />
+    <list default="true" id="cdf74f77-ca59-45f0-8043-63fab13ea790" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/xxd-starter-cache/xxd-starter-cache.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxd-starter-configuration-client/xxd-starter-configuration-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxd-starter-core/xxd-starter-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxd-starter-db/xxd-starter-db.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxd-starter-experiment/xxd-starter-experiment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxd-starter-sample/xxd-starter-sample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxd-starters.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +57,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
@@ -114,6 +122,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Volumes/APPDATA/ninemarks/IdeaProjects/java-samples/xxd-starters",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "spring.configuration.checksum": "0736c8c555b104fc8d2fa4cdff67fa83"
@@ -150,9 +159,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="xxd-starter-configuration-client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="xxd-starter-configuration-client" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -252,6 +291,7 @@
       <workItem from="1584431477487" duration="43000" />
       <workItem from="1584431649237" duration="64000" />
       <workItem from="1667783376681" duration="1314000" />
+      <workItem from="1667785796863" duration="88000" />
     </task>
     <servers />
   </component>
